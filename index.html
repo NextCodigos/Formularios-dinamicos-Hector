@@ -1,29 +1,30 @@
+<!-- Archivo: index.html -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script defer src="main.js"></script>
+    <meta charset="UTF-8"> <!-- Configura el conjunto de caracteres UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura la vista adaptable -->
+    <title>Document</title> <!-- Título de la página -->
+    <script defer src="main.js"></script> <!-- Enlaza el archivo JavaScript -->
 </head>
 <body>
-    <form id="myForm">
+    <form id="myForm"> <!-- Inicia el formulario -->
         <div>
-            <label>Encargado</label>
-            <input type="text" name="responsible">
+            <label>Encargado</label> <!-- Etiqueta para el campo "Encargado" -->
+            <input type="text" name="responsible"> <!-- Campo de texto para el "Encargado" -->
         </div>
 
         <div>
-            <label>Cantidad de invitados</label>
-            <input type="number" id="quantity" name="quantity">
-
+            <label>Cantidad de invitados</label> <!-- Etiqueta para el campo "Cantidad de invitados" -->
+            <input type="number" id="quantity" name="quantity"> <!-- Campo numérico para la cantidad de invitados -->
         </div>
 
-        <div id="divGuests">
-
+        <div id="divGuests"> <!-- Contenedor para los campos de los invitados -->
+            <!-- Los campos de los invitados se generarán dinámicamente aquí -->
         </div>
 
-        <button type="submit">Guardar</button>
+        <button type="submit">Guardar</button> <!-- Botón para enviar el formulario -->
     </form>
 </body>
 </html>
